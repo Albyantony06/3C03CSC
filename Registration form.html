@@ -1,1 +1,91 @@
+<Html>  
+<head>   
+  <title>Registration Form</title>
+</head>  
+<body bgcolor="#9DA7E1"> 
+<h1 style="color:darkred">Registration Form</h1>
+<h2>REGISTRATION FORM</h2>
+<br>  
+<br>  
+<form>  
+  
+<label> Firstname </label>         
+<input type="text" name placeholder="firstname" size="15" required/> <br> <br>  
+<label> Middlename: </label>     
+<input type="text" name placeholder="middlename" size="15"/> <br> <br>  
+<label> Lastname: </label>         
+<input type="text" name placeholder="lastname" size="15"/> 
+<br>
+<br>
 
+ Languages known:
+ English:<input type="checkbox" value="eng" checked />
+ Malayalam:<input type="checkbox" value="mal" />
+ Hindi:<input type="checkbox" value="hin"  />
+ <br>
+ <br>
+   
+Country :     
+<select>  
+<option value="Country">Country</option>  
+<option value="India">India </option>  
+<option value="China">china</option>  
+<option value="Indonesia">Indonesia</option>  
+<option value="Germany"> Germany </option>  
+<option value="Brazil"> Brazil </option>  
+<option value="Others"> Others </option>  
+</select> 
+</br>
+</br>
+ 
+State:
+<input type=text list="state" />
+<datalist id="state">
+     <Option value="Kerala"/>
+     <Option value="Thamilnadu"/>
+     <Option value="Goa"/>
+     <Option value="maharashtra"/>
+     <Option value="Panjab"/>
+     <Option value="Karnataka"/>
+     <Option value="Thripura"/>
+     <Option value="Madyapradesh"/>
+     <option value="Others"/>
+</datalist>
+
+</br>  
+</br>  
+
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<input type="radio" name="other"/> Other  
+<br>  
+<br>
+
+Date of Birth: <input type="date" min="1800-01-01"/>  
+</br>
+</br>
+  
+<label>   
+Phone :  
+</label>  
+<input type="text" name placeholder="country code"  value="+91" size="2"/>   
+<input type="text" name placeholder="phone" size="10"/> <br> <br>  
+Address  
+<br>  
+<textarea cols="80" rows="5" value="address">  
+</textarea>  
+<br> <br>  
+Email:  
+<input type="email"  name placeholder="email" required/> <br>    
+<br> <br>  
+Password:  
+<input type="Password"  name placeholder="password" required> <br>   
+<br> <br>  
+Confirm password:  
+<input type="Password" id="repass" name placeholder="confirm password"> <br> <br>
+<a href="wings.html"><input type="text" placeholder="submit"/></a>
+</form>  
+</body> 
